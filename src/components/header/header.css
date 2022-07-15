@@ -1,0 +1,21 @@
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 15px 0;
+}
+@media screen and (max-width: 1000px) {
+    .wrapper{
+        margin-top: 50px;
+        display: block;
+        text-align: center;
+    } 
+}
+.profilePhoto{  
+    border-radius: 100%;
+    height: 250px;
+}
+.space{
+    height: 15px;
+    background-color: pink;
+}

@@ -1,0 +1,29 @@
+.footer{
+    background-color: pink;
+    display: flex;
+    padding-top: 10px;
+    margin-top: 20px;
+    width: 100%;
+    justify-content: space-around;
+    color: brown;
+}
+ul{
+    list-style-type: none;
+}
+@media screen and (max-width: 1000px) {
+    .footer{
+        display: block;
+    } 
+    .contact{
+        margin-left: 20px;
+    }
+}
+.contact{
+    display: flex;
+}
+.offlineContact{
+    margin-right: 100px;
+}
+.links{
+    font-size: 20px;
+}
